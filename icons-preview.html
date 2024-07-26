@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Icons Preview</title>
+	<link rel="stylesheet" href="icons-preview.css">
+</head>
+
+<body>
+	<div class="sprites-container"></div>
+	<div class="wrapper">
+		<h1>Icons Preview (<span class="icons-count"></span> icons)</h1>
+		<p>Full set of all icons from all svg sprites.</p>
+	</div>
+	<template id="section">
+		<section>
+			<h2></h2>
+			<div class="icons-container"></div>
+		</section>
+	</template>
+	<template id="figure">
+		<figure>
+			<div class="icon-container">
+				<svg width="" height="">
+					<use xlink:href=""></use>
+				</svg>
+			</div>
+			<figcaption></figcaption>
+		</figure>
+	</template>
+	<script src="icons-preview.js"></script>
+</body>
+
+</html>
